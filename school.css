@@ -1,0 +1,242 @@
+a:hover,a:focus,a:active {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+}
+
+.schoollist-border {
+  margin-top: 20px;
+  border-top: 1px solid #e5e5e5;
+}
+.list h1 {
+  font-size: 18px;
+  line-height: 64px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.list h4 {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 1.429em;
+}
+
+.list dl {
+  margin-left: 1.714em;
+}
+
+.list dl:last-child {
+  margin-bottom: 1.1em;
+}
+
+.list dt {
+  display: inline;
+  font-weight: normal;
+  color: #999;
+}
+
+.list dt:after {
+  content:":"
+}
+
+.list dd {
+  display: inline-block;
+  margin-left: 28px;
+  margin-top: 1.1em;
+}
+
+.list a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #333;
+  cursor: pointer;
+}
+
+.list dl dd a:hover {
+  color: #4db7e9;
+}
+
+.list dl dd.active a {
+  display: inline-block;
+  height: 2.143em;
+  line-height: 2.143em;
+  text-align: center;
+  background: #38b1e7;
+  color: #fff;
+}
+
+.schoollist {
+  margin-top: 30px;
+  text-align: center;
+  padding: 0 3.57em;
+  border: 1px solid transparent;
+}
+
+.schoollist:hover, .schoollist:focus, .schoollist:active {
+  border: 1px solid #fafafa;
+  box-shadow: 5px 5px 5px 5px #f3f3f3;
+}
+
+.schoollist h4,.schoollist p {
+  text-align: left;
+}
+
+.schoollist img {
+
+  width: 100%;
+  padding-top: 2.143em;
+}
+.school-box {
+  position: relative;
+}
+.schoollist span {
+
+  display: inline-block;
+  height: 26px;
+  padding-left: 7px;
+  padding-right: 7px;
+  line-height: 26px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #102d3b;
+  border: 1px solid #b7babc;
+  border-radius: 3px;
+}
+.school-box div {
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+  right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.schoollist span:nth-of-type(1) {
+  float: left;
+}
+.schoollist span:nth-of-type(2) {
+   margin: 0 auto;
+ }
+.schoollist span:nth-of-type(3) {
+  float: right;
+}
+@media only screen  and (max-width: 991px) {
+  .schoollist {
+    width: 470px;
+    margin: 0 auto;
+  }
+}
+@media only screen  and (max-width: 470px) {
+  .schoollist {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.schoollist h4 {
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.schoollist p {
+  margin-top: 1.429em;
+  padding-bottom: 40px;
+  color: #999;
+}
+
+.search ul {
+  margin-top: 3.286em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.search ul li {
+  display: inline-block;
+  width: 3.214em;
+  list-style: none;
+}
+
+.search ul li a {
+  display: block;
+  width: 3em;
+  height: 2.5em;
+  line-height: 2.5em;
+  color: #333;
+
+}
+.search ul li a.last {
+  color: #999999;
+}
+.search ul li a.page {
+  width: 2.5em;
+  font-weight: bold;
+}
+
+.search ul li a.page:hover, a.page:focus, .search ul li a.active {
+  background: #38b1e7;
+  color: #fff;
+}
+
+
+
+
+
+
+#filter
+{
+  width:620px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:12px;
+}
+
+#filter dl
+{
+
+  margin-top:0;
+  margin-bottom:0;
+  clear:both;
+  padding:4px 0;
+}
+
+#filter dt,dd
+{
+  display:block;
+  float:left;
+  width:auto;
+  padding:0;
+  margin:3px 0;
+}
+
+#filter dt
+{
+  height:14px;
+  padding-bottom:4px;
+  font-weight:bold;
+  color:#333333;
+}
+
+#filter dd
+{
+  color:#38b1e7;
+  margin-right:8px;
+}
+
+#filter a
+{
+  cursor:pointer;
+}
+
+.seling
+{
+    background-color: #fff;
+    color: #38b1e7;
+}
+
+.seled
+{
+  color:#fff;
+}
